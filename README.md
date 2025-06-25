@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Next.js Feature Showcase Application
+This repository demonstrates key Next.js features through a practical implementation of 10 essential tasks, covering both client and server-side functionality.
 
-## Getting Started
+Features Implemented
+🖥️ Server-Side Data Fetching
+Fetch and display posts at request time using fetch with cache: 'no-store'
 
-First, run the development server:
+📱 Client-Side Data Fetching
+Fetch user data with useEffect and display loading states
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📝 Form Handling
+Complete form with client-side validation and API submission
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔄 API Routes
+Create backend endpoints for form submissions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛒 State Management
+Global shopping cart using Context API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔒 Protected Routes
+Authentication system with token-based access control
 
-## Learn More
+🔍 Search & Filter
+Real-time product filtering with category selection
 
-To learn more about Next.js, take a look at the following resources:
+📚 Dynamic Routing
+Parameterized blog post routes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🧭 Navigation
+App-wide navigation with active link highlighting
